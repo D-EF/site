@@ -1,0 +1,6 @@
+[submodule "js/import/PrimitivesTGT"]
+	path = js/import/PrimitivesTGT
+	url = https://github.com/D-EF/PrimitivesTGT.git
+[submodule "js/import/Basics"]
+	path = js/import/Basics
+	url = https://github.com/D-EF/Basics.git
