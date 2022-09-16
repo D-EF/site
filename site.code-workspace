@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.inlayHints.enabled": "off",
+		"editor.fontFamily": "Ubuntu Mono derivative Powerline",
+		"editor.foldingStrategy": "indentation"
+	}
+	
+}
