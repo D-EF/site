@@ -4,3 +4,6 @@
 [submodule "js/import/Basics"]
 	path = js/import/Basics
 	url = https://github.com/D-EF/Basics.git
+[submodule "css/import/DEF_UI_Lib"]
+	path = css/import/DEF_UI_Lib
+	url = https://github.com/D-EF/DEF_UI_Lib.git
