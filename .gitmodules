@@ -7,3 +7,6 @@
 [submodule "css/import/DEF_UI_Lib"]
 	path = css/import/DEF_UI_Lib
 	url = https://github.com/D-EF/DEF_UI_Lib.git
+[submodule "js/import/NML"]
+	path = js/import/NML
+	url = https://github.com/D-EF/NML.git
