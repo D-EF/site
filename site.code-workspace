@@ -9,6 +9,19 @@
 		"editor.fontFamily": "Ubuntu Mono derivative Powerline",
 		"editor.foldingStrategy": "indentation",
 		"html.completion.attributeDefaultValue": "empty",
-		"editor.formatOnSave": false
+		"editor.formatOnSave": false,
+		"editor.tokenColorCustomizations": {
+			"textMateRules": [
+				{
+					"scope": "variable.parameter", //形参
+					"settings": {
+						"fontStyle": "italic",
+						"foreground": "#8ff"
+					}
+				}
+			]
+		},
+		"workbench.colorCustomizations": {
+		} 
 	}
 }
