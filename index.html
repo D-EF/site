@@ -15,6 +15,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
+    <script type="text/javascript">
+        var opentime=new Date();
+        // 注册 ServiceWorker
+        if ('serviceWorker' in window.navigator) {
+        navigator.serviceWorker.register('./ServiceWorker.js', { scope: './' })
+            .then(function (reg) {
+            console.log('success', reg);
+            navigator.serviceWorker.controller && 
+            navigator.serviceWorker.controller.postMessage("this message is from page");
+            });
+        }
+    </script>
     <link rel="stylesheet" href="./css/inedx.css">
 </head>
 <body>
