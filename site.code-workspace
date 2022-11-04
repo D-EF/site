@@ -1,7 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": ".",
+		},
+		{
+			"path": "D://apache24/conf",
+			"name": "httpd_Config"
+		},
+		{
+			"path": "D://apache24/bin",
+			"name": "httpd_bin"
+			// D://apache24/bin/httpd.exe
 		}
 	],
 	"settings": {
