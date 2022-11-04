@@ -32,5 +32,15 @@
 		},
 		"workbench.colorCustomizations": {
 		} 
+	},
+	"extensions": {
+		"recommendations": [
+			"obkoro1.korofileheader",
+			"albymor.increment-selection",
+			"wwm.better-align",
+			"formulahendry.auto-rename-tag",
+			"formulahendry.auto-close-tag",
+			"jock.svg"
+		]
 	}
 }
