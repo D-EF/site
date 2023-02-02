@@ -43,7 +43,7 @@ function JSZip(compression)
  * @param   name  The name of the file
  * @param   data  The file data, either raw or base64 encoded
  * @param   o     File options
- * @returns  this JSZip object
+ * @return  this JSZip object
  */
 JSZip.prototype.add = function(name, data, o)
 {
@@ -116,7 +116,7 @@ JSZip.prototype.add = function(name, data, o)
 
 /** Add a directory to the zip file
  * @param   name  The name of the directory to add
- * @returns  JSZip object with the new directory as the root
+ * @return  JSZip object with the new directory as the root
  */
 JSZip.prototype.folder = function(name)
 {
@@ -135,7 +135,7 @@ JSZip.prototype.folder = function(name)
 /** Compare a string or regular expression against all of the filenames and
  * return an informational object for each that matches.
  * @param   string/regex The regular expression to test against
- * @returns  An array of objects representing the matched files. In the form
+ * @return  An array of objects representing the matched files. In the form
  *          {name: "filename", data: "file data", dir: true/false}
  */
 JSZip.prototype.find = function(needle)
@@ -164,7 +164,7 @@ JSZip.prototype.find = function(needle)
 
 /** Delete a file, or a directory and all sub-files, from the zip
  * @param   name  the name of the file to delete
- * @returns  this JSZip object
+ * @return  this JSZip object
  */
 JSZip.prototype.remove = function(name)
 {
@@ -207,7 +207,7 @@ JSZip.prototype.remove = function(name)
 };
 
 /** Generate the complete zip file
- * @returns  A base64 encoded string of the zip file
+ * @return  A base64 encoded string of the zip file
  */
 JSZip.prototype.generate = function(asBytes)
 {
