@@ -1,6 +1,6 @@
 
 /**MD5散列算法 form https://baike.baidu.com/item/MD5/212708?fr=aladdin
- * @param {String} string 需要加密的字符串
+ * @param {string} string 需要加密的字符串
 */
 function md5(string) {
     function md5_RotateLeft(lValue, iShiftBits) {
