@@ -1,0 +1,14 @@
+{
+  "include": [
+    "js/index.js"
+  ],
+  "compilerOptions": {
+    "allowJs":true,
+    "checkJs":true,
+    "outDir":"docs/",
+    "lib":[
+      "Dom",
+      "es2016"
+    ]
+  }
+}
